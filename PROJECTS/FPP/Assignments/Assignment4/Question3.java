@@ -1,4 +1,4 @@
-package Assignment4;
+
 
 // Write a method to compute the sum of all elements of the array arr, of size n.
 

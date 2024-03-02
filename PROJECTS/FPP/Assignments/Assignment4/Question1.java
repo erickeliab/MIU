@@ -1,4 +1,4 @@
-package Assignment4;
+
 //Write a method to display the digits of a given integer value n in reverse order.
 public class Question1 {
 
