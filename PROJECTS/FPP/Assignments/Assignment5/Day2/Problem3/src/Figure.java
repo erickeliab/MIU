@@ -1,0 +1,3 @@
+interface Figure {
+    void getFigure();
+}
