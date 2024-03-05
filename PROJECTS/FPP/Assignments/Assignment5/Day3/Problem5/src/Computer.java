@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Computer {
 
     String manufacturer;
@@ -27,5 +29,19 @@ public class Computer {
     public String toString(){
 
         return "[Manufacturer : "+ manufacturer + ", Processor : "+ processor + ", Ram Size : " + ramSize + ", Processor Speed" + processorSpeed + "]";
+    }
+
+    @Override
+    public boolean equals(Object obj){
+        if (this == obj) return true;
+        if(obj == null || getClass() != obj.getClass()) return false;
+        Computer computer = (Computer) obj;
+        return ramSize == computer.ramSize && processorSpeed == computer.processorSpeed &&
+                Objects.equals(processor , computer.processor) && Objects.equals(manufacturer , computer.manufacturer);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(manufacturer, processor, getRamSize(), getProcessorSpeed());
     }
 }
