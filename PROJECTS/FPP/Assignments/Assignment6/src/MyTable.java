@@ -13,7 +13,7 @@ public class MyTable {
         return null;
     }
 
-
+  
     public void add(char c, String s) {
         int index = c - 'a';
         if (index >= 0 && index < entries.length) {
