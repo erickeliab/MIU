@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="ucanaccess-2.0.9.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/W2D3_Files/W2D3_Files/JDBC/MS-Access_jar_Files/ucanaccess-2.0.9.4.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/W2D3_Files/W2D3_Files/JDBC/MS-Access_jar_Files/jackcess-2.0.8.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/W2D3_Files/W2D3_Files/JDBC/MS-Access_jar_Files/hsqldb.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/W2D3_Files/W2D3_Files/JDBC/MS-Access_jar_Files/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/W2D3_Files/W2D3_Files/JDBC/MS-Access_jar_Files/commons-lang-2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
