@@ -65,6 +65,7 @@ public class DepartmentApplication
         Course cs450 = new Course("cs450","Advanced architecture",5);
 
         Faculty jdl = (Faculty) johnDoodle;
+
         jdl.addCourse(cs201);
         jdl.addCourse(cs404);
         jdl.addCourse(cs240);

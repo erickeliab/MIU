@@ -48,3 +48,4 @@ public class Faculty extends Person {
         return Objects.hash(getTotalSalary(), getCourses());
     }
 }
+
