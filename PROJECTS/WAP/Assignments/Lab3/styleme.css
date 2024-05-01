@@ -1,0 +1,121 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+
+        .card {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            text-align: left;
+        }
+
+        img {
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        a > img {
+            border-radius: 10%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #666;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        h3 {
+            margin-top: 20px;
+        }
+
+        nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        max-width: 100%;
+        text-align: left;
+        }
+
+        nav > .nav-div {
+        margin: 0px;
+        padding: 0px;
+        position: inline-block;
+
+     }
+
+     nav button {
+     padding: 5px;
+     background-color: blue;
+     color: white;
+     border-color: white;
+     text-align: center;
+     }
+
+     table button {
+     padding: 20px;
+     background-color: #fff;
+     border-radius: 8px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     max-width: 900px;
+     text-align: left;
+     }
+
+     .submit {
+          padding: 20px;
+          background-color: blue;
+          color: white;
+          border-color: white;
+          border-radius: 10px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          max-width: 900px;
+          text-align: left;
+          }
+
+     table {
+
+     width: 100%;
+     border-color: black;
+     }
+
+
+     #total {
+
+     display: inline-block;
+     margin-top: 2rem;
+
+
+     }
