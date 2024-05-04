@@ -219,3 +219,7 @@ text-decoration:underline;
 .form-body {
 padding: 10px;
 }
+
+article#myart {
+color: red;
+}
