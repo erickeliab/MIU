@@ -1,6 +1,5 @@
 
 
-
 let printNumbers = (from, to) => {
     let current = from;
     const interval_key = setInterval(function() {
