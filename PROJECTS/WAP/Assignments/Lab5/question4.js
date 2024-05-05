@@ -18,3 +18,5 @@ const averageGrades = cs303Students.reduce((acc, student) => {
 }, {});
 
 console.log(averageGrades);
+
+
