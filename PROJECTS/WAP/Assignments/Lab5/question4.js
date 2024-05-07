@@ -9,7 +9,6 @@ const students = [
   { name: 'Katie', grades: [66, 77], courses:['cs303', 'cs477'] }
 ];
 
-
 const average_Grades = students.filter(student => student.courses.includes('cs303')).reduce((acc, student) => {
     const avgGrade = student.grades.reduce((sum, grade) => sum + grade, 0) / student.grades.length;
     acc[student.name] = avgGrade;
