@@ -33,6 +33,7 @@ let group2 = {
     showList: function () {
 
         let temp = this;
+
         this.students.forEach(function (student) {
 
             console.log(temp.title + ": " + student
@@ -115,25 +116,6 @@ let group5 = {
 };
 
 
-let group6 = {
-
-    title: "Our Group",
-
-    students: ["John", "Pete", "Alice"],
-
-    showList: function () {
-
-        this.students.forEach(function (student) {
-
-            console.log(this.title + ": " + student
-
-            );
-
-        });
-
-    }
-
-};
 
 group1.showList();
 group2.showList();
