@@ -48,7 +48,8 @@ const Student = function(firstName, lastName){
 };
 
 
-const student1 = new Student('John', 'Doe');
+const student1 = new Student('Jane', 'Foster');
+
 student1.inputGrades(85);
 student1.inputGrades(72);
 student1.inputGrades(95);
