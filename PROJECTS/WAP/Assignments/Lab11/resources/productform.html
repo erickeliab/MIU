@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add User</title>
+    <link rel="stylesheet" href="/resources/styles/main.css">
+    <script src="/resources/js/main.js"></script>
+</head>
+<body>
+
+
+<h1>Please fill the form to add a new Product</h1>
+
+<form action="/products" method="POST">
+    <div>
+        <label for="pname">Product Name:</label>
+        <input type="text" name="pname" id="pname">
+    </div>
+    <div>
+        <label for="supplier">Supplier Name:</label>
+        <input type="text" name="supplier" id="supplier">
+    </div>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>

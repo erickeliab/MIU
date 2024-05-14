@@ -1,0 +1,68 @@
+
+body {
+background-color: yellow;
+color: magenta;
+}
+
+p{
+color: orange;
+}
+
+.central, .item {
+    color: green;
+    background-color: blue;
+}
+
+li {
+color: brown;
+background-color: cyan;
+}
+
+li #item {
+
+    color: red;
+background-color:beige;
+}
+
+div > p {
+color: pink;
+}
+
+section {
+color: black;
+}
+
+#parent section {
+    color: green; /* ID selector */
+}
+
+
+#parent {
+    color: blue; /* ID selector */
+}
+
+span {
+    color: red; /* Element selector */
+}
+
+div > input {
+color: brown;
+
+}
+
+input {
+color: red;
+}
+
+#firstone {
+color:purple;
+}
+
+input[type=text] {
+color: blue;
+}
+
+.secondone{
+color: cyan;
+}
+

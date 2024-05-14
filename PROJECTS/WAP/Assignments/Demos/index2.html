@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Specificity Example</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+<header>
+    <h1>Main Header</h1>
+    <p>This is a paragraph inside the header.</p>
+</header>
+<nav>
+    <ul>
+        <li><a href="#">Menu Item 1</a></li>
+        <li><a href="#">Menu Item 2</a></li>
+        <li><a href="#">Menu Item 3</a></li>
+    </ul>
+</nav>
+<div class="container">
+    <section id="section1">
+        <h2>Section 1</h2>
+        <p>This is some text in section 1.</p>
+        <div class="box">
+            <p class="special">Special Box</p>
+        </div>
+    </section>
+    <section id="section2">
+        <h2>Section 2</h2>
+        <p>This is some text in section 2.</p>
+        <div class="box">
+            <p>Regular Box</p>
+        </div>
+    </section>
+</div>
+<footer>
+    <p>Footer Text</p>
+</footer>
+</body>
+</html>
