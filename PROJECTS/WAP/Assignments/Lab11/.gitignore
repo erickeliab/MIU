@@ -1,0 +1,31 @@
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# Editor directories and files
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.idea/
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Testing data
+coverage/
+
+# OS or Editor files
+.DS_Store
+Thumbs.db
+
+# Optional: Configuration files
+config.js
