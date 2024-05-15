@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Calculator</title>
+
+</head>
+<body>
+<div>
+
+    <input id="first" value="" type="number">
+    <span>+</span>
+    <input id="second" type="number">
+    <span> = </span>
+    <input id="res" type="number">
+    <button id="btn"> Submit </button>
+</div>
+<script>
+
+    let firstInput = document.getElementById("first");
+    let secondInput = document.getElementById("second");
+    let res = document.getElementById("res");
+
+    let buttonInput = document.getElementById("btn");
+
+    buttonInput.onclick = function(){
+
+    res.value = Number(firstInput.value)+Number(secondInput.value)
+
+
+
+}
+</script>
+</body>
+</html>

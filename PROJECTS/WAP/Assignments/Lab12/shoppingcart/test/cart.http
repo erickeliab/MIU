@@ -1,0 +1,32 @@
+GET http://localhost:3000/books
+
+###
+GET http://localhost:3000/books/5
+
+###
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+    "title": "How to create JS classes",
+    "ISBN": 32544,
+    "publishedDate": "09-11-2007",
+    "author": "Erick Emmanuel"
+  }
+
+###
+DELETE http://localhost:3000/books/3
+
+###
+PUT http://localhost:3000/books/3
+Content-Type: application/json
+
+{
+
+  
+    "title": "Millenial Money",
+    "ISBN": 121212,
+    "publishedDate": "09-11-2007",
+    "author": "Grantt Sebastier"
+ 
+}
