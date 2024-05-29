@@ -1,0 +1,21 @@
+GET http://localhost:3000/music
+
+###
+GET http://localhost:3000/music/5
+
+###
+GET http://localhost:3000/music/playlist
+
+###
+POST http://localhost:3000/music/playlist
+Content-Type: application/json
+
+{
+    "title": "How to create JS classes",
+    "ISBN": 5,
+    "publishedDate": "09-11-2007",
+    "author": "Erick Emmanuel"
+}
+
+###
+DELETE http://localhost:3000/music/playlist/3

@@ -1,0 +1,35 @@
+GET http://localhost:3000/books
+
+###
+GET http://localhost:3000/books/1
+
+###
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+   
+    "title": "Java.js",
+    "author": {
+      "authorId": 304,
+      "firstname": "Doe",
+      "lastname": "Jacklin"
+    }
+  }
+
+###
+DELETE http://localhost:3000/books/2
+
+###
+PUT http://localhost:3000/books/1
+Content-Type: application/json
+
+{
+  
+    "title": "uh.js",
+    "author": {
+      "authorId": 307,
+      "firstname": "Doe",
+      "lastname": "Jacklijn"
+    }
+  }
