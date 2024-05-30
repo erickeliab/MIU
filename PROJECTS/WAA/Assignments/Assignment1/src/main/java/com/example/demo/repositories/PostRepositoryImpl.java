@@ -60,6 +60,7 @@ public class PostRepositoryImpl implements PostRepository{
         posts = posts.stream()
                 .map(p -> {
                     if (p.getId() == id) {
+                        
                         return up;
                     } else {
                         return p;
