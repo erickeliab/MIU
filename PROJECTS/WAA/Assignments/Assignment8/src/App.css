@@ -1,0 +1,20 @@
+
+.wrapper {
+  padding-left: 20px;
+}
+
+
+.container {
+  margin: 20px;
+  border: 0cap;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  padding: 10px;
+}
