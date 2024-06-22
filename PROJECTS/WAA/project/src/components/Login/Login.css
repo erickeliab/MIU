@@ -1,0 +1,45 @@
+.auth {
+    margin: 5rem auto;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+    width: 25rem;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    background-color: #5b13c9;
+  }
+  
+  .auth control {
+    margin-bottom: 0.5rem;
+  }
+  
+  .auth label {
+    display: block;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  
+  .auth input {
+    display: block;
+    width: 20rem;
+    margin: auto;
+    border-radius: 4px;
+    padding: 0.25rem;
+    border: 1px solid #ccc;
+  }
+  
+  .auth button {
+    margin: 1rem auto;
+    font-size: 1.25rem;
+    background-color: #92908c;
+    border: 1px solid #f5f5f5;
+    padding: 0.5rem 1.5rem;
+    box-shadow: 0 1px 4px rgba(231, 227, 227, 0.2);
+    color: #2c2922;
+  }
+  
+  .auth button:hover,
+  .auth button:active {
+    background-color: #ebe9e6;
+    border-color: #dddbd7;
+  }
