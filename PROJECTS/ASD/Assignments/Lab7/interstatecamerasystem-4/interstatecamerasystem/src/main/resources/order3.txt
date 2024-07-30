@@ -1,0 +1,2 @@
+CompanyB
+This is an order from another CompanyB from Texas
